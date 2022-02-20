@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bangers rel="stylesheet">
+    <title>ポートフォリオサイト</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">Unyo's Portfolio</h1>
+        <nav class="nav">
+            <ul class="menu">
+                <li class="menu-item"><a href="#">HOME</a></li>
+                <li class="menu-item"><a href="#">PROFILE</a></li>
+                <li class="menu-item"><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="photo">
+        <img src="img/02.jpg">
+        <p>このサイトは Fuji Unyo の<br>ポートフォリオサイトです!
+        </p>
+    </div>
+    <div class="profile">
+        <h1>PROFILE</h1>
+    </div>
+    <div class="profile-name">
+        <h1>Fuji Unyo</h1>
+        <p>熊本県在住、駆け出しのプログラマー。</p>
+        <p>Udemyの講座を通じてウェブ制作を習得中。</p>
+        <p>まだまだ未熟者でありますが、よろしくお願いいたします!</p>
+    </div>
+    <div class="skill">
+        <h1>skill</h1>
+        <div class="skill-logo">
+          <img src="img/05.svg">
+          <img src="img/04.svg">
+          <img src="img/06.svg">
+          <img src="img/07.svg">
+        </div>
+    </div>
+    <div class="contact">
+        <h1>CONTACT</h1>
+    </div>
+    <div class="form">
+        <p>メールアドレス</p>
+        <div class="mail">
+            <input id="mail" type="email" name="mail" placeholder="メールアドレス" size="50">
+        </div>
+        <p>お問い合わせ内容</p>
+        <textarea name="t_name2" cols="50" rows="8">
+        </textarea>
+        <div class="button">
+            <input type="button" value="送信" onclick="return confirm('送信いたします。よろしいですか？')"/><br />
+        </div>
+    </div>
+</body>
+</html>
